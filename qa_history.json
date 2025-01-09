@@ -1,0 +1,22 @@
+[
+    {
+        "question": "hi",
+        "answer": "Hello! I'm here to help answer questions based on provided documents. Since your question is a simple \"hi,\" I'll go ahead and provide a friendly greeting in response. If you have a specific question related to the document or context provided, please let me know and I'd be happy to help."
+    },
+    {
+        "question": "What is the name of the company?",
+        "answer": "The name of the company, according to the provided context, is Zania, Inc."
+    },
+    {
+        "question": "What is their vacation policy?",
+        "answer": "The vacation policy states that employers who use an accrual method do not grant vacation time for unpaid leaves or periods of inactive service, unless required by law. Unused vacation time can be carried over to the following year or the company may elect to pay for the unused time. For states except California, Colorado, Montana, and Nebraska, vacation time received each year is based on length of service and is granted either in a lump sum at the beginning of each year or according to an accrual schedule up to a maximum annual grant. Specific amounts for each employment year are provided in the policy."
+    },
+    {
+        "question": "What is the termination policy?",
+        "answer": "The termination policy involves a series of progressive disciplinary actions, including verbal and written warnings, demotion, transfer, forced leave, or termination of employment, if conduct is not improved. However, it's important to note that the specific terms of employment and termination are governed by the state laws where the employee is based. Also, the handbook and company documents do not guarantee continued employment, contractual rights, or specific termination reasons. Any promises or negotiations regarding continued employment would need to be in writing, signed by the CEO."
+    },
+    {
+        "question": "what is the name of CEO of Zania",
+        "answer": "The name of the CEO of Zania, Inc. is Shruti Gupta, as stated in the provided context."
+    }
+]
