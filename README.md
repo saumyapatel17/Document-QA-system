@@ -1,3 +1,6 @@
+Here’s the updated `README.md` with the changes you've requested:
+
+```markdown
 # Document Q&A System
 
 The **Document Q&A System** is a Retrieval-Augmented Generation (RAG)-based application that allows users to upload documents and ask questions to gain insights. It integrates semantic search with language models to provide precise answers using only the uploaded content.
@@ -14,6 +17,13 @@ The **Document Q&A System** is a Retrieval-Augmented Generation (RAG)-based appl
 
 ---
 
+## Prerequisites
+
+- Python 3.10.11
+- Poetry (for managing dependencies)
+
+---
+
 ## Installation
 
 1. Clone the repository:
@@ -21,27 +31,43 @@ The **Document Q&A System** is a Retrieval-Augmented Generation (RAG)-based appl
    git clone https://github.com/your-repo/document-qa-system.git
    cd document-qa-system
    ```
-2. Create and activate a virtual environment:
+
+2. Install Poetry (if not already installed):
+
+3. Ensure Python 3.10.11 is Available:
    ```bash
-   python3 -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   python3 --version
    ```
-3. Install the required dependencies:
+
+   If Python 3.10.11 is not the default version, use the following command to tell Poetry to use this version:
    ```bash
-   pip install -r requirements.txt
+   poetry env use python3.10
+   ```
+
+4. Install the required dependencies:
+   ```bash
+   poetry install
    ```
 
 ---
 
 ## Usage
 
-1. Run the application:
+1. Activate the Poetry virtual environment:
+   ```bash
+   poetry shell
+   ```
+
+2. Run the application:
    ```bash
    python main.py
    ```
-2. Open the Gradio interface in your browser (link provided in the terminal).
-3. **Upload Documents**: Drag and drop files or use the upload button.
-4. **Ask Questions**: Type your query in the chatbox to retrieve answers based on the document content.
+
+3. Open the Gradio interface in your browser (link provided in the terminal).
+
+4. **Upload Documents**: Drag and drop files or use the upload button.
+
+5. **Ask Questions**: Type your query in the chatbox to retrieve answers based on the document content.
 
 ---
 
@@ -52,7 +78,7 @@ The **Document Q&A System** is a Retrieval-Augmented Generation (RAG)-based appl
 - **`main.py`**: Entry point of the application, handles the UI and user interactions.
 - **`app/rag.py`**: Implements the RAG workflow, including semantic search and response generation.
 - **`app/ingestion.py`**: Handles document ingestion and chunking for vectorization.
-- **`app/llm.py`**: Handle generation of final responses using LLM model.
+- **`app/llm.py`**: Handles the generation of final responses using the LLM model.
 - **`app/prompts.py`**: Contains system and user prompt templates for language model interactions.
 - **`app/setupDB.py`**: Manages the setup and initialization of the ChromaDB vector database.
 
@@ -93,3 +119,6 @@ The **Document Q&A System** is a Retrieval-Augmented Generation (RAG)-based appl
 4. **Testing and Monitoring**: Implement thorough testing to catch bugs and use monitoring tools (like Prometheus) to keep track of system performance and health in real-time.
 5. **Model Versioning**: Use a system (like MLflow) to track different versions of models and experiments, ensuring reproducibility and easier updates.
 6. **Caching**: Use caching (like Redis) to store frequently accessed documents and answers, speeding up the system and reducing response time.
+```
+
+This version integrates your request while maintaining a clear structure for users to follow the setup, usage, and best practices. Let me know if you'd like further adjustments!
