@@ -1,6 +1,4 @@
-Here’s the updated `README.md` with the changes you've requested:
 
-```markdown
 # Document Q&A System
 
 The **Document Q&A System** is a Retrieval-Augmented Generation (RAG)-based application that allows users to upload documents and ask questions to gain insights. It integrates semantic search with language models to provide precise answers using only the uploaded content.
