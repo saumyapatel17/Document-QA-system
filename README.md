@@ -19,34 +19,7 @@ The **Document Q&A System** is a Retrieval-Augmented Generation (RAG)-based appl
 
 - Python 3.10.11
 - Poetry (for managing dependencies)
-
----
-
-## Installation
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-repo/document-qa-system.git
-   cd document-qa-system
-   ```
-
-2. Install Poetry (if not already installed):
-
-3. Ensure Python 3.10.11 is Available:
-   ```bash
-   python3 --version
-   ```
-
-   If Python 3.10.11 is not the default version, use the following command to tell Poetry to use this version:
-   ```bash
-   poetry env use python3.10
-   ```
-
-4. Install the required dependencies:
-   ```bash
-   poetry install
-   ```
-
+- 
 ---
 
 ## Usage
