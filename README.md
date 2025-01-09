@@ -19,7 +19,7 @@ The **Document Q&A System** is a Retrieval-Augmented Generation (RAG)-based appl
 
 - Python 3.10.11
 - Poetry (for managing dependencies)
-- 
+
 ---
 
 ## Usage
