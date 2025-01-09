@@ -58,7 +58,6 @@ The **Document Q&A System** is a Retrieval-Augmented Generation (RAG)-based appl
 - **`app/preProcessing.py`**: Processes files (`.txt`, `.pdf`, `.docx`) and splits them into chunks.
 - **`app/clients.py`**: Manages environment variables and provides configuration details.
 - **`.env`**: Stores environment-specific configurations.
-- **`requirements.txt`**: Lists required Python libraries.
 
 ---
 
